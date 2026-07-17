@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+@use "../abstracts";
+
+.main-header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 300;
+  gap: 80px;
+  margin: 0;
+
+  nav {
+    width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+    li:last-child {
+      margin-left: auto;
+      padding: 12px;
+      background-color: abstracts.$brand-color;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@use "../abstracts";
+
+/**
+ * Basic typography style for copy text
+ */
+
+body {
+  font-family: abstracts.$text-font-stack;
+}
+
+header {
+  color: abstracts.$text-color;
+}
+
+.hero {
+  color: abstracts.$text-color;
+  a {
+    color: abstracts.$text-black-color;
+  }
+}
+
+.home-categories {
+  h3 {
+    color: abstracts.$text-black-color;
+  }
+
+  p {
+    color: abstracts.$mid-grey;
+  }
+}
