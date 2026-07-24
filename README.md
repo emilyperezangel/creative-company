@@ -1,3 +1,3 @@
 # creative-company
-CSS Project #1
+CSS Project #2
 https://emilyperezangel.github.io/creative-company/
